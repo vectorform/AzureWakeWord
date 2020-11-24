@@ -9,6 +9,11 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
+
+
+        buildConfigField "String", "TEST_SPEECH_RESOURCE_KEY", "\"$TEST_SPEECH_RESOURCE_KEY\""
+        buildConfigField "String", "TEST_APP_ID", "\"$TEST_APP_ID\""
+        buildConfigField "String", "TEST_APP_REGION", "\"$TEST_APP_REGION\""
     }
     buildTypes {
         release {
